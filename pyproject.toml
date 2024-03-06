@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ppai"
+version = "0.1"
+description = "The official PeakPrivacy library for the AI API"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "freihandlabor GmbH", email = "support@freihandlabor.com" },
+]
+dependencies = [
+    "requests>=2.31.0",
+    "typing>=3.7.4",
+    "httpx>=0.23.0",
+]
+requires-python = ">= 3.7.1"
+
+classifiers = [
+    # How mature is this project? Common values are
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 4 - Beta",
+    # Indicate who your project is intended for
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    # Pick your license as you wish (see also "license" above)
+    "License :: OSI Approved :: MIT License",
+    # Specify the Python versions you support here.
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://peakprivacy.ch/"
+Repository = "https://github.com/freihandlabor/peakprivacyai-python"
+Documentation = "https://peakprivacy.ch/en/guide/api"
+Issues = "https://github.com/freihandlabor/peakprivacyai-python/issues"
+Changelog = "https://github.com/freihandlabor/peakprivacyai-python/blob/main/CHANGELOG.md"

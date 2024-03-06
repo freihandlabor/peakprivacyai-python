@@ -1,2 +1,6 @@
 .DS_Store
 .idea/
+build
+dist
+ppai.egg-info
+/ppai_dev.egg-info/
